@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/dbcd514b1e.js" crossorigin="anonymous"></script>
+    <title>Giovanna's Portfolio</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="js/main.js"></script>
+    <div class="cursor-small"></div>
+    <div class="cursor-big"></div>
+    <script src="js/cursor.js"></script>
+
+    <!-----Color Change----->
+    <script>
+      
+      function colorChange(element){
+        target = event.currentTarget;
+        target.style.color = "white";
+      }
+    </script>
+
+    <!-----------------changing active tab------------------>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabName){
+          for(i of tablinks){ 
+              i.classList.remove("active-link");
+              i.style.color = "#8494A0";
+          }
+          for(i of tabcontents){
+              i.classList.remove("active-tab");
+          }
+          target = event.currentTarget;
+          target.classList.add("active-link");
+          document.getElementById(tabName).classList.add("active-tab");
+          target.style.color = "white";
+      }
+    </script>
+
+    <!-----------------side menu------------------>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+  </body>
+</html>
