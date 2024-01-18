@@ -27,9 +27,7 @@ document.querySelector('#app').innerHTML = `
             </div>
             <div class="arrow">
                 <nav>
-                    <ul>
                         <li><a href="#about"><img src="/arrow.png" class=id="arrow-img"></a></li>
-                    </ul>
                 </nav>
             </div>
         </div>
@@ -82,7 +80,7 @@ document.querySelector('#app').innerHTML = `
                         <ul>
                             <li><span>Creative</span><br>Digital art, Pencil drawings, Painting, Playing piano</li>
                             <li><span>Academic</span><br>Learning Korean, Coding personal projects, Reading</li>
-                            <li><span>Misc</span><br>Cooking, Playing games, Listening to music, Watching shows</li>
+                            <li><span>Misc</span><br>Cooking, Playing games, Listening to music, Watching shows, Working out</li>
                         </ul>
                     </div>
                 </div>
@@ -112,7 +110,7 @@ document.querySelector('#app').innerHTML = `
             </div>
             <div class="blanc">
                 <h2 class="heading"><i class="fa-solid fa-gamepad"></i> Blanc Puzzle Video Game</h2>
-                <p>A nonogram puzzle video game which won the first place jury prize for KuriusHacks' 2021 Christmas Edition Game Jam.</p>
+                <p>A nonogram puzzle video game which won the overall first place prize for KuriusHacks' 2021 Christmas Edition Game Jam.</p>
                 <a href="https://github.com/madelahn/blanc">Learn more</a>&emsp;
                 <a href="https://madelahn.itch.io/blanc" class="play-game">Play the game</a>
             </div>
@@ -138,7 +136,7 @@ document.querySelector('#app').innerHTML = `
                         <a href="https://github.com/giovannager"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/giovanna-gerada/"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="Giovanna_Gerada_Resume_January_2023.pdf" download class="btn btn2">Download Resume</a>
+                    <a href="Giovanna_Gerada_Resume_January_2023.pdf" download class="btn btn2">Resume</a>
                 </div>
                 <div class="contact-right">
                     <form>
