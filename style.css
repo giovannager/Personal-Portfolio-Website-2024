@@ -606,6 +606,7 @@ nav .fas{
         letter-spacing: 1px;
     }
     .header-text p{
+        display: none;
         font-size: 15px;
         letter-spacing: 1px;
         width:100%;
@@ -634,7 +635,7 @@ nav .fas{
         left: 15px;
     }
     nav .fas{
-        display: block;
+        /*display: block;*/
         font-size: 25px;
         position: fixed;
         right: 30px;
