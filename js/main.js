@@ -95,12 +95,12 @@ document.querySelector('#app').innerHTML = `
             <div class="website">
                 <h2 class="heading"><i class="fa-solid fa-code"></i> Portfolio Website</h2>
                 <p>My personal portfolio website that has been revamped for 2024! It was originally designed in Figma, and brought to life using Vite JS, HTML, and CSS. The results of this project are what you happen to be reading right now :)</p>
-                <a href="https://github.com/giovannager/Personal-Portfolio-Website">Learn more</a>
+                <a href="https://github.com/giovannager/Personal-Portfolio-Website-2024">Learn more</a>
             </div>
             <div class="edu-everywhere">
                 <h2 class="heading"><i class="fa-solid fa-graduation-cap"></i> EDU Everywhere Learning Platform</h2>
                 <p>A full-stack education platform that uses AI to leverage the Google Cloud Translation API and Google Cloud Vision API to provide global access to education through accurate translation of hand-written documents. Originally designed in Figma and further built using React JS, HTML, and CSS.</p>
-                <a href="https://github.com/giovannager/Personal-Portfolio-Website">Learn more</a>
+                <a href="https://github.com/sarahsimionescu/EDUEverywhere">Learn more</a>
             </div>
             <div class="remindchuu">
                 <h2 class="heading"><i class="fa-brands fa-discord"></i> RemindChuu Discord Bot</h2>
